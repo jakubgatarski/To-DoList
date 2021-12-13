@@ -28,10 +28,8 @@ addBtn.addEventListener("click", function () {
 });
 
 
-document.querySelector("#task-list").addEventListener('click', event => {
+document.querySelector("#task-list").addEventListener('click', event => {  //queryselector to the parent element to make addeventlistener posible on dynamic list items
     if (event.target.matches(".delete-btn")) {
         event.target.parentElement.remove();
     }
 });
-
-

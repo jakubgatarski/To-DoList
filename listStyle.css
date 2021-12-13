@@ -1,0 +1,8 @@
+
+input[type=checkbox] + span {
+
+}
+
+input[type=checkbox]:checked + span{    /*if checkbox is cheked makes text decorated*/
+    text-decoration: line-through;
+}
