@@ -1,8 +1,40 @@
 
-input[type=checkbox] + span {
+/*input[type=checkbox] + span {
 
 }
 
-input[type=checkbox]:checked + span{    /*if checkbox is cheked makes text decorated*/
+input[type=checkbox]:checked + span{    /*if checkbox is cheked makes text decorated*//*
     text-decoration: line-through;
+}*/
+
+.checked {
+    text-decoration: line-through;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body{
+    background-color: beige;
+}
+.delete-btn{
+    height: 15px;
+    width: 15px;
+    background-color: firebrick;
+}
+.task{
+    font-size: 30px;
+    font-family: "Book Antiqua";
+}
+#add-task-button{
+    height: 30px;
+    width: 200px;
+    background-color: goldenrod;
+}
+#input-task{
+    height: 50px;
+    width: 300px;
+    font-size: 40px;
 }
